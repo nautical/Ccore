@@ -6,3 +6,23 @@ people writing in rails or django.
 
 
 -Nautical
+
+
+[SAMPLE HTML FILE :]
+
+<html>
+<body>
+
+{EXTEND "./control/ex1.c" END}
+
+</body>
+</html>
+
+
+[SAMPLE C FILE :]
+
+int main()
+{
+    printf("<h1>Hello from C</h1>");
+    return 0;
+}
